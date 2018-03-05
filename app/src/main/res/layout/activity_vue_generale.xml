@@ -6,4 +6,218 @@
     android:layout_height="match_parent"
     tools:context="vovard.com.outerspacemanager.outerspacemanager.VueGeneraleActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitre"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Vue générale"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="297dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewUsernameTitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Username"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="307dp" />
+
+                <TextView
+                    android:id="@+id/textViewUsernameValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="195dp"
+                    tools:layout_editor_absoluteY="307dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="190dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMineralsModifieTitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Minerals modifié"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="187dp" />
+
+                <TextView
+                    android:id="@+id/textViewMineralsModifievalue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="196dp"
+                    tools:layout_editor_absoluteY="190dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="135dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewMineralsTitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Minerals"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="136dp" />
+
+                <TextView
+                    android:id="@+id/textViewMineralsValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="197dp"
+                    tools:layout_editor_absoluteY="139dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="39dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gas"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="39dp" />
+
+                <TextView
+                    android:id="@+id/textViewGasValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="191dp"
+                    tools:layout_editor_absoluteY="39dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="88dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewGasModifieTitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gas modifié"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="88dp" />
+
+                <TextView
+                    android:id="@+id/textViewGasModifieValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="191dp"
+                    tools:layout_editor_absoluteY="88dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="246dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewPointTitre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Point"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="246dp" />
+
+                <TextView
+                    android:id="@+id/textViewPointValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="196dp"
+                    tools:layout_editor_absoluteY="242dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

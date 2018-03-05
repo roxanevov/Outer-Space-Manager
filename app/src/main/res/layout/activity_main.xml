@@ -6,4 +6,146 @@
     android:layout_height="match_parent"
     tools:context="vovard.com.outerspacemanager.outerspacemanager.MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewUsernameValue"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textColorLink="@android:color/holo_green_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewPoint"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColorLink="@android:color/background_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewUsernameValue" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonVueGenerale"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Vue générale"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonBatiment"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.523"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/buttonRecherches"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Recherches"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonChantirtSpatial"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonBatiment"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Batiment"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonFlotte"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/buttonFlotte"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Flotte"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonRecherches"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonChantirtSpatial"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Chantier spatial"
+                    app:layout_constraintBottom_toTopOf="@+id/buttonGalaxie"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/buttonGalaxie"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:text="Galaxie"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.529"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

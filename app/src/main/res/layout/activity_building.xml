@@ -2,8 +2,32 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextViewBuilding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="vovard.com.outerspacemanager.outerspacemanager.BuildingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ojuiuhuhiuj"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="0dp"
+            tools:text="r-c-rdtdrtyrdy " />
+
+        <ListView
+            android:id="@+id/ListViewBuilding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
