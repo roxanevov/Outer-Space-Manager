@@ -2,6 +2,7 @@ package vovard.com.outerspacemanager.outerspacemanager;
 
 import java.util.HashMap;
 
+import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.FieldMap;
@@ -28,8 +29,7 @@ public interface outerSpeceManagerService {
     @GET("ships")
     Call<ShipResponce> getShips(@Header("x-access-token") String token);
 
-    @FormUrlEncoded
     @POST("ships/create/{shipId}")
-    Call<CreateShipResponce> createShip(@Header("x-access-token") String token, @FieldMap HashMap<String, Long> data);
+    Call<CreateShipResponce> createShip(@Header("x-access-token") String token, @Path("shipId") long id, @Body RequestBody data);
 
 }

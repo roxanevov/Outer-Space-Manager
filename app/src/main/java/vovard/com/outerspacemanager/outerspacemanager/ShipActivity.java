@@ -4,16 +4,22 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.ArrayMap;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -75,10 +81,16 @@ public class ShipActivity extends AppCompatActivity implements AdapterView.OnIte
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         outerSpeceManagerService service = retrofit.create(outerSpeceManagerService.class);
-        HashMap<String, Long> data = new HashMap<>();
-        data.put("shipId", id);
-        data.put("amount", 1l);
-        Call<CreateShipResponce> request = service.createShip(token,data);
+//put something inside the map, could be null
+        JSONObject jsonParams = new JSONObject();
+        try {
+            jsonParams.put("amount", 1);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        RequestBody body = RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),jsonParams.toString());
+        Call<CreateShipResponce> request = service.createShip(token, id,body);
 
         request.enqueue(new Callback<CreateShipResponce>() {
             @Override

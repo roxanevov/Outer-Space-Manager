@@ -5,9 +5,4 @@ package vovard.com.outerspacemanager.outerspacemanager;
  */
 
 public class CreateShipResponce {
-    private Integer code;
-
-    public Integer getCode() {
-        return code;
-    }
 }
