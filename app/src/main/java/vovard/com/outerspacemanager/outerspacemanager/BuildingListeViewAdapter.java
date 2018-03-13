@@ -32,7 +32,7 @@ public class BuildingListeViewAdapter extends ArrayAdapter<Building> {
         TextView BuildingEffectTextView = (TextView) rowView.findViewById(R.id.BuildingEffectTextView);
         TextView BuildingBuildingTextView = (TextView) rowView.findViewById(R.id.BuildingBuildingTextView);
         ImageView imageViewBuilding = (ImageView) rowView.findViewById(R.id.imageViewBuilding);
-        ImageView BuildingLevelTextViewtextView3 = (TextView) rowView.findViewById(R.id.BuildingLevelTextViewtextView3);
+        TextView BuildingLevelTextView = (TextView) rowView.findViewById(R.id.BuildingLevelTextView);
 
         Glide.with(context)
                 .load(values.get(position).getImageUrl())
@@ -41,7 +41,7 @@ public class BuildingListeViewAdapter extends ArrayAdapter<Building> {
         textView.setText(values.get(position).getName());
         BuildingEffectTextView.setText(values.get(position).getEffect());
         BuildingBuildingTextView.setText(values.get(position).getBuilding());
-        BuildingLevelTextViewtextView3.setText(values.get(position).getLevel()+"");
+        BuildingLevelTextView.setText(values.get(position).getLevel()+"");
 
         return rowView;
     }

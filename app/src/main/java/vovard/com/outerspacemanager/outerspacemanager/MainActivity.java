@@ -115,5 +115,14 @@ public class MainActivity extends AppCompatActivity {
                  }
              }
         );
+        buttonChantirtSpatial.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this,ShipActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
     }
 }

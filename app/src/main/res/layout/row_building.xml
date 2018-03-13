@@ -54,7 +54,7 @@
                     android:text="TextView" />
 
                 <TextView
-                    android:id="@+id/BuildingLevelTextViewtextView3"
+                    android:id="@+id/BuildingLevelTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
