@@ -124,5 +124,24 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        buttonFlotte.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this,FleetActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+        buttonGalaxie.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(MainActivity.this,GalaxieActivity.class);
+                        startActivity(intent);
+                    }
+                }
+        );
+
     }
 }

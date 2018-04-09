@@ -69,7 +69,7 @@ public class CurrentUserDatabase {
         values.put(DatabaseUser.KEY_MINERALS, minerals);
         values.put(DatabaseUser.KEY_MINERALS_MODIFIER, mineral_modifier);
         values.put(DatabaseUser.KEY_POINTS,points);
-        database.update(DatabaseUser.CURRENT_USER_TABLE_NAME,values,"id = \""+username+"\"",null);
+        database.update(DatabaseUser.CURRENT_USER_TABLE_NAME,values,DatabaseUser.KEY_USERNAME + " = \""+username+"\"",null);
     }
 
 }

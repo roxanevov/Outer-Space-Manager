@@ -104,8 +104,8 @@ public class ShipActivity extends AppCompatActivity implements AdapterView.OnIte
                     }
                 } else {
                     CreateShipResponce rss = response.body();
-                    Toast.makeText(getApplicationContext(), "En cpnstruction", Toast.LENGTH_SHORT).show();
-                    Log.i("good", response.body().toString());
+                    Toast.makeText(getApplicationContext(), "En construction", Toast.LENGTH_SHORT).show();
+
                 }
             }
             @Override

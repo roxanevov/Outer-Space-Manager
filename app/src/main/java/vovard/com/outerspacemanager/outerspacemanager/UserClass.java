@@ -14,6 +14,11 @@ public class UserClass {
     private String gasModifier;
     private String gas;
 
+
+
+    private String imageUrl;
+
+
     public UserClass(String username, String password, String email) {
         this.email = email;
         this.username = username;
@@ -23,6 +28,7 @@ public class UserClass {
         this.minerals = "";
         this.gasModifier = "";
         this.gas = "";
+
     }
 
     public UserClass(String gas, String gasModifier, String minerals, String mineralsModifier, String points) {
@@ -32,7 +38,9 @@ public class UserClass {
         this.minerals = minerals;
         this.gasModifier = gasModifier;
         this.gas = gas;
+
     }
+
     public String getEmail() {
         return email;
     }
@@ -97,6 +105,6 @@ public class UserClass {
         this.gas = gas;
     }
 
-
+    public String getImageUrl() { return imageUrl; }
 
 }

@@ -1,6 +1,7 @@
 package vovard.com.outerspacemanager.outerspacemanager;
 
 public class Ship {
+    private Integer amount;
     private Integer gasCost;
     private Integer life;
     private Integer maxAttack;
@@ -13,7 +14,8 @@ public class Ship {
     private Integer speed;
     private Integer timeToBuild;
 
-    public Ship(Integer gasCost, Integer life, Integer maxAttack, Integer minAttack, Integer mineralCost, String name, Integer shipId, Integer shield, Integer spatioportLevelNeeded, Integer speed, Integer timeToBuild) {
+    public Ship(Integer amount, Integer gasCost, Integer life, Integer maxAttack, Integer minAttack, Integer mineralCost, String name, Integer shipId, Integer shield, Integer spatioportLevelNeeded, Integer speed, Integer timeToBuild) {
+        this.amount = amount;
         this.gasCost = gasCost;
         this.life = life;
         this.maxAttack = maxAttack;
@@ -25,6 +27,14 @@ public class Ship {
         this.spatioportLevelNeeded = spatioportLevelNeeded;
         this.speed = speed;
         this.timeToBuild = timeToBuild;
+    }
+
+    public Integer getAmount() {
+        return amount;
+    }
+
+    public void setAmount(Integer amount) {
+        this.amount = amount;
     }
 
     public Integer getGasCost() {

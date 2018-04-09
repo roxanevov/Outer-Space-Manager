@@ -22,6 +22,8 @@
         <activity android:name=".VueGeneraleActivity" />
         <activity android:name=".BuildingActivity"></activity>
         <activity android:name=".ShipActivity"></activity>
+        <activity android:name=".FleetActivity"></activity>
+        <activity android:name=".GalaxieActivity"></activity>
     </application>
 
 </manifest>

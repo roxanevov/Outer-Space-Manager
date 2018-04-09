@@ -6,10 +6,21 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="respo" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e23434-1143-4252-a866-1445035e5c38" name="Default" comment="Initial commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetListeViewAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetResponce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieListeViewAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UsersResponce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fleet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_galaxie.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_fleet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_galaxie.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -19,8 +30,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java" afterPath="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShipListeViewAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipListeViewAdapter.java">
+      <file leaf-file-name="GalaxieActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="45" column="77" lean-forward="false" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,47 +73,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateBuildingResponce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateBuildingResponce.java">
+      <file leaf-file-name="UsersResponce.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UsersResponce.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="11" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java">
+      <file leaf-file-name="GalaxieListeViewAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieListeViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            <state relative-caret-position="276">
+              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
               <folding>
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row_ship.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_ship.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+      <file leaf-file-name="UserClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="107" column="52" lean-forward="true" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="outerSpeceManagerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="103" />
+            <state relative-caret-position="61">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShipActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java">
+      <file leaf-file-name="FleetListeViewAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetListeViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="96" column="50" lean-forward="false" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+            <state relative-caret-position="322">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,46 +129,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RequestBody.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/7ebc06b0cc7c2752a4883747e2c70b2b301df9c0/okhttp-3.6.0-sources.jar!/okhttp3/RequestBody.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-              <folding />
-            </state>
+      <file leaf-file-name="activity_galaxie.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_galaxie.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Retrofit.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/2ee0decdbfcfd5d76aa5e43377c077e9301df72d/retrofit-2.2.0-sources.jar!/retrofit2/Retrofit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateShipResponce.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_ship.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ship.xml">
           <provider editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="row_galaxie.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_galaxie.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="row_fleet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_fleet.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FleetActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="73" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -1904,11 +1924,9 @@
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/DatabaseUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserResponce.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/VueGeneraleActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vue_generale.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Building.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingResponce.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_building.xml" />
@@ -1918,22 +1936,34 @@
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_building.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingListeViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipResponce.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipListeViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ship.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_ship.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_fleet.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_fleet.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetResponce.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetListeViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_galaxie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UsersResponce.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/row_galaxie.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieListeViewAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="12" />
+    <option name="x" value="18" />
+    <option name="y" value="33" />
     <option name="width" value="1867" />
     <option name="height" value="986" />
   </component>
@@ -1953,8 +1983,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2199,7 +2227,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2210,24 +2239,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OuterSpaceManager" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2310,6 +2321,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2413,8 +2425,7 @@
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520956785789" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523284344698" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2461,8 +2472,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520956785789" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523284344698" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2643,10 +2653,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1520956785791" />
-      </method>
+      <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
@@ -2693,20 +2700,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="12" width="1867" height="986" extended-state="0" />
+    <frame x="18" y="33" width="1867" height="986" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.6181678" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.6181678" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.38183218" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39928487" sideWeight="0.43663532" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777116" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116805725" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657926" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37067938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2717,7 +2724,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39928487" sideWeight="0.49730563" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39928487" sideWeight="0.5633647" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2736,155 +2743,35 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java</url>
-          <line>97</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java</url>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="44" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java</url>
-          <line>92</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java</url>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java</url>
-          <line>105</line>
-          <properties />
-          <option name="timeStamp" value="47" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java</url>
-          <line>111</line>
-          <properties method="onFailure">
+          <url>file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java</url>
+          <line>45</line>
+          <properties method="onResponse">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="46" />
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="64" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="values" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/SingUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="46" column="87" lean-forward="false" selection-start-line="46" selection-start-column="87" selection-end-line="46" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpaceManagerService.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_singup.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vue_generale.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/VueGeneraleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="88" column="51" lean-forward="false" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/android_avd/sources/android-26/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744">
-          <caret line="2322" column="0" lean-forward="false" selection-start-line="2322" selection-start-column="0" selection-end-line="2322" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/android_avd/sources/android-26/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1106" column="0" lean-forward="false" selection-start-line="1106" selection-start-column="0" selection-end-line="1106" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/android_avd/sources/android-26/android/app/ActivityTransitionState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/2ee0decdbfcfd5d76aa5e43377c077e9301df72d/retrofit-2.2.0-sources.jar!/retrofit2/ExecutorCallAdapterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="e#2126#2558#0" expanded="false" />
-            <element signature="e#2557#2558#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/android_avd/sources/android-26/android/os/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/android_avd/sources/android-26/android/os/MessageQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -2933,21 +2820,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_building.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://C:/android_avd/sources/android-26/android/widget/AdapterView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="289" column="16" lean-forward="false" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2966,14 +2852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/SingUpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1012">
@@ -2981,14 +2859,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/DatabaseUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3000,68 +2870,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingResponce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipResponce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1771">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_building.xml">
+      <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_building.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1495">
           <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingListeViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3073,539 +2889,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/vovard/com/outerspacemanager/outerspacemanager/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="2899" column="27" lean-forward="false" selection-start-line="2899" selection-start-column="24" selection-end-line="2899" selection-end-column="27" />
           <folding>
-            <element signature="e#0#590314#0" expanded="false" />
-            <marker date="1520950033710" expanded="true" signature="134561:134909" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="134945:138610" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="138646:138761" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="138797:141237" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="141272:170013" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="170052:590312" ph="{...}" />
-            <marker date="1520950033710" expanded="true" signature="170058:175599" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="176073:176514" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="176595:177878" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="177953:178478" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="178535:179255" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="179317:180041" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="180105:180706" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="180768:181391" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="181464:182067" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="182130:182735" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="182799:183404" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="183468:184101" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="184179:184728" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="184797:185755" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="185817:186336" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="186391:186980" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="187037:187620" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="187674:188077" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="188144:188683" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="188748:189273" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="189331:189844" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="189896:190453" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="190527:191120" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="191179:191692" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="191744:192457" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="192519:193044" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="193102:193709" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="193775:194312" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="194376:194788" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="194844:195383" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="195448:195854" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="195907:196440" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="196502:196934" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="197018:197536" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="197664:199007" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="199152:199678" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="199736:200457" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="200520:201056" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="201119:201703" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="201757:202297" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="202362:202896" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="202958:203719" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="203816:204403" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="204496:204942" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="205019:206573" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="206731:207172" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="207235:207784" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="207854:208389" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="208452:208979" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="209038:209587" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="209657:210042" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="210100:210651" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="210722:211673" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="211793:212420" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="212487:213019" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="213084:213557" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="213617:214432" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="214496:215480" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="215598:216042" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="216109:216637" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="216699:217186" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="217252:218130" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="218200:219691" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="219857:220507" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="220586:221230" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="221306:221952" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="222029:222677" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="222755:223403" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="223481:224125" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="224201:224666" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="224745:226628" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="226804:227267" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="227344:227961" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="228035:228652" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="228726:229277" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="229351:229976" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="230054:230724" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="230795:231219" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="231284:231913" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="231979:257245" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="259002:259544" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="259612:260168" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="260243:260791" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="260862:261779" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="261844:262392" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="262463:263001" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="263067:263617" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="263689:264233" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="264302:264854" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="264928:265466" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="265533:266083" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="266156:266700" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="266770:267318" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="267390:267948" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="268025:268758" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="268830:269380" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="269453:270015" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="270094:270650" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="270726:271280" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="271355:271907" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="271981:272535" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="272610:273166" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="273242:273804" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="273883:274447" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="274527:275083" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="275159:275719" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="275797:276337" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="276405:276969" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="277049:277609" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="277687:278243" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="278319:278877" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="278954:279518" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="279598:280016" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="280093:280635" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="280704:281246" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="281315:281787" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="281867:282191" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="282267:282827" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="282905:283457" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="283531:284081" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="284154:284720" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="284801:285365" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="285445:286011" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="286092:286630" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="286697:287229" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="287293:287835" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="287904:288440" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="288506:289056" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="289129:289612" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="289676:290183" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="290259:290754" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="290824:291327" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="291401:291904" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="291978:292475" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="292546:293261" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="293324:293809" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="293874:294367" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="294436:294941" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="295016:295560" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="295630:296250" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="296325:296857" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="296921:297465" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="297535:298075" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="298143:298695" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="298769:299407" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="299491:300037" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="300108:300829" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="300895:301431" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="301497:302041" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="302111:302653" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="302722:303290" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="303372:303926" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="304001:304545" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="304615:305165" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="305238:305860" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="305936:306568" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="306649:307281" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="307362:307994" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="308075:308709" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="308791:309331" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="309399:309945" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="310016:310628" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="310699:311237" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="311304:311846" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="311915:312457" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="312526:313064" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="313131:313687" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="313763:314311" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="314383:314923" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="314991:315525" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="315590:316148" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="316225:316803" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="316890:317448" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="317525:318059" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="318124:318656" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="318720:319286" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="319367:319921" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="319996:320568" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="320652:321216" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="321296:321864" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="321946:322524" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="322612:323184" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="323269:323835" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="323917:324668" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="324750:325481" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="325553:326119" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="326201:326735" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="326801:327540" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="327616:328170" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="328246:328646" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="328715:329129" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="329205:329621" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="329698:330600" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="330676:331578" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="331654:332554" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="332629:333529" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="333604:334500" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="334573:335469" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="335542:335938" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="336005:336466" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="336547:336944" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="337010:337754" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="337862:338221" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="338282:338563" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="338632:339029" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="339098:339882" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="339986:340430" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="340496:340977" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="341039:341862" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="341928:354166" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="354939:355464" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="355542:356065" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="356142:356667" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="356745:357268" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="357345:357940" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="358020:358565" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="358639:359053" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="359147:360051" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="360150:360560" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="360652:361548" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="361643:362533" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="362626:363098" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="363191:364075" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="364165:365053" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="365145:365786" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="365876:366513" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="366601:367015" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="367107:367812" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="367905:368544" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="368633:369272" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="369361:369779" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="369873:370652" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="370752:371174" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="371270:371676" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="371767:372655" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="372747:373637" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="373730:374138" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="374230:375120" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="375213:376105" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="376199:377087" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="377179:378071" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="378165:378569" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="378659:379549" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="379642:380526" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="380616:381030" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="381122:381897" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="381995:382413" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="382507:383210" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="383302:383939" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="384027:384664" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="384752:385383" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="385468:386099" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="386184:386815" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="386900:387525" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="387607:388234" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="388317:388946" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="389030:389659" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="389743:390368" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="390450:391266" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="391352:404954" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="405924:406200" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="406264:406779" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="406848:407283" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="407344:408316" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="408388:408923" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="409001:409530" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="409606:410137" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="410213:410746" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="410823:411356" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="411434:411963" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="412038:413008" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="413079:413664" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="413734:414018" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="414087:414371" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="414440:414718" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="414784:415062" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="415128:415655" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="415730:416257" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="416332:416853" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="416925:417446" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="417518:418039" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="418111:418741" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="418810:419214" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="419299:420193" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="420283:420683" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="420766:421652" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="421738:422618" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="422701:423163" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="423246:424120" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="424200:425078" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="425160:425791" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="425871:426498" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="426576:426980" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="427062:427757" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="427840:428469" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="428548:429177" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="429256:429664" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="429748:430517" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="430607:431019" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="431105:431501" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="431582:432460" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="432542:433422" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="433505:433903" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="433985:434865" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="434948:435830" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="435914:436792" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="436874:437756" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="437840:438234" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="438314:439194" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="439277:440151" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="440231:440635" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="440717:441482" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="441570:441978" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="442062:442755" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="442837:443464" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="443542:444169" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="444247:444868" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="444943:445564" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="445639:446260" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="446335:446950" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="447022:447639" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="447712:448331" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="448405:449024" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="449098:449713" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="449785:451562" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="451738:452347" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="452417:453028" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="453099:453696" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="453760:454234" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="454294:454897" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="454964:455571" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="455640:456029" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="456092:456689" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="456753:458234" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="458379:459165" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="459269:459787" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="459843:460497" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="460558:460917" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="460979:461418" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="461487:462027" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="462092:462775" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="462848:463548" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="463620:464055" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="464122:464553" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="464618:465071" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="465159:465753" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="465832:467773" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="467971:469000" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="469127:470420" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="470505:471489" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="471573:471877" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="471961:472943" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="473026:473352" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="473431:473746" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="473835:475107" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="475178:475768" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="475843:476132" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="476205:476733" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="476796:477404" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="477474:477894" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="477973:478764" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="478832:479497" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="479590:480137" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="480222:480765" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="480848:481989" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="482133:482766" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="482838:483139" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="483201:483632" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="483689:484395" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="484462:484748" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="484818:485119" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="485181:489089" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="489472:490000" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="490059:490492" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="490558:490983" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="491045:491942" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="492008:492361" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="492433:492737" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="492801:493101" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="493162:493462" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="493523:493957" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="494015:494445" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="494501:495206" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="495272:495619" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="495689:496020" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="496082:496367" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="496436:496763" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="496822:497167" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="497235:497535" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="497596:498027" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="498092:498563" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="498618:499480" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="499539:500430" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="500493:501340" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="501399:501816" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="501874:503666" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="503854:504497" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="504567:505027" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="505098:505737" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="505805:506108" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="506183:506645" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="506717:507173" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="507242:507708" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="507782:508184" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="508249:508777" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="508835:509626" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="509727:510236" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="510328:510746" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="510828:511295" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="511371:512015" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="512087:512480" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="512542:513232" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="513325:513946" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="514021:514632" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="514702:517852" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="518156:518770" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="518835:520393" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="520459:522846" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="522911:523421" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="523485:524009" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="524066:524592" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="524650:525079" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="525143:525661" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="525715:526117" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="526183:526701" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="526755:527291" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="527355:527770" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="527828:528362" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="528425:528951" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="529010:529548" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="529613:530157" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="530225:530749" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="530807:531806" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="531936:532902" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="532968:533407" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="533467:534107" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="534175:534612" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="534671:535194" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="535249:537922" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="538183:538518" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="538583:538916" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="538980:539420" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="539483:539867" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="539925:540313" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="540373:540975" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="541039:541639" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="541702:542250" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="542320:542926" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="542992:543469" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="543528:544396" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="544460:544978" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="545034:545511" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="545571:546439" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="546503:548847" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="549098:549441" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="549512:549917" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="549988:550271" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="550339:550622" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="550690:550981" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="551053:551688" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="551757:552400" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="552473:553116" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="553189:553703" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="553771:554423" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="554492:555168" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="555236:555657" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="555720:556346" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="556410:561874" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="562346:563607" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="563667:564176" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="564238:564919" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="564977:565423" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="565494:566021" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="566078:566677" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="566737:567358" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="567429:568030" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="568091:568694" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="568756:569359" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="569421:570052" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="570129:570640" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="570690:571114" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="571175:571774" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="571835:572285" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="572359:572890" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="572950:573473" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="573529:573939" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="573993:574540" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="574608:575096" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="575159:575563" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="575614:576205" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="576262:576865" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="576928:577525" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="577585:578186" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="578248:578845" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="578905:579498" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="579556:580097" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="580162:580644" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="580704:581686" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="581813:582675" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="582785:583428" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="583504:583999" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="584071:584908" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="584984:585686" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="585790:586226" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="586288:586740" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="586810:587254" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="587320:587928" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="587987:588419" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="588474:589060" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="589112:589702" ph="/**...*/" />
-            <marker date="1520950033710" expanded="true" signature="589756:590266" ph="/**...*/" />
+            <element signature="e#0#590749#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3629,54 +2918,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ship.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_ship.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateBuildingResponce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="11" column="5" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipListeViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding>
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3698,45 +2944,288 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/2ee0decdbfcfd5d76aa5e43377c077e9301df72d/retrofit-2.2.0-sources.jar!/retrofit2/Retrofit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
+        <state relative-caret-position="2392">
           <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/7ebc06b0cc7c2752a4883747e2c70b2b301df9c0/okhttp-3.6.0-sources.jar!/okhttp3/RequestBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" column="103" lean-forward="false" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="103" />
+        <state relative-caret-position="552">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2049#2050#0" expanded="false" />
+            <element signature="e#2076#2077#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/7ebc06b0cc7c2752a4883747e2c70b2b301df9c0/okhttp-3.6.0-sources.jar!/okhttp3/RequestBody.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipResponce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="433">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ship.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_ship.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipListeViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fleet.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android_avd/sources/android-26/android/os/Trace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetResponce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/VueGeneraleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android_avd/sources/android-26/android/database/sqlite/SQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1523" column="15" lean-forward="false" selection-start-line="1523" selection-start-column="15" selection-end-line="1523" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/DatabaseUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CurrentUserDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/ShipActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="96" column="50" lean-forward="false" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
+        <state relative-caret-position="162">
+          <caret line="84" column="8" lean-forward="false" selection-start-line="84" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingListeViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/BuildingResponce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="140" column="46" lean-forward="false" selection-start-line="140" selection-start-column="46" selection-end-line="140" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="73" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/CreateShipResponce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_fleet.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/FleetListeViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_galaxie.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/outerSpeceManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="77" lean-forward="false" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UsersResponce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/UserClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="107" column="52" lean-forward="true" selection-start-line="107" selection-start-column="52" selection-end-line="107" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_galaxie.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/vovard/com/outerspacemanager/outerspacemanager/GalaxieListeViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

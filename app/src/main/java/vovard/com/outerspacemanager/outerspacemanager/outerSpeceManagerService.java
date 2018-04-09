@@ -19,6 +19,8 @@ public interface outerSpeceManagerService {
 
     @GET("users/get")
     Call<CurrentUserResponce> getCurrentuser(@Header("x-access-token") String token);
+    @GET("users/0/20")
+    Call<UsersResponce> getUsers(@Header("x-access-token") String token);
 
     @GET("buildings/list")
     Call<BuildingResponce> getBuilding(@Header("x-access-token") String token);
@@ -32,4 +34,6 @@ public interface outerSpeceManagerService {
     @POST("ships/create/{shipId}")
     Call<CreateShipResponce> createShip(@Header("x-access-token") String token, @Path("shipId") long id, @Body RequestBody data);
 
+    @GET("fleet/list")
+    Call<FleetResponce> listeFleet(@Header("x-access-token") String token);
 }
