@@ -4,10 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by rvovard on 23/01/2018.
- */
-
 public class DatabaseUser extends SQLiteOpenHelper {
 
     public static final int DATABASE_VERSION = 2;
