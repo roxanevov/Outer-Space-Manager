@@ -27,9 +27,20 @@ public class FragmentBuildingDetail extends Fragment {
     public String token;
     public Building building;
 
+    TextView BuildingNameTextView;
+    TextView BuildingEffectTextView;
+    TextView BuildingBuildingTextView;
+    TextView BuildingLevelTextView;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_building_detail,container);
+
+        BuildingNameTextView = v.findViewById(R.id.BuildingNameTextView);
+        BuildingEffectTextView = v.findViewById(R.id.BuildingEffectTextView);
+        BuildingBuildingTextView = v.findViewById(R.id.BuildingBuildingTextView);
+        BuildingLevelTextView = v.findViewById(R.id.BuildingLevelTextView);
+
         return v;
     }
 
@@ -60,13 +71,9 @@ public class FragmentBuildingDetail extends Fragment {
     }
 
     private void setData(Building building) {
-        TextView textView = getView().findViewById(R.id.BuildingNameTextView);
-        TextView BuildingEffectTextView = getView().findViewById(R.id.BuildingEffectTextView);
-        TextView BuildingBuildingTextView = getView().findViewById(R.id.BuildingBuildingTextView);
-        TextView BuildingLevelTextView = getView().findViewById(R.id.BuildingLevelTextView);
 
-        textView.setText(building.getName());
-        textView.setVisibility(View.VISIBLE);
+        BuildingNameTextView.setText(building.getName());
+        BuildingNameTextView.setVisibility(View.VISIBLE);
 
         BuildingEffectTextView.setText(building.getEffect());
         BuildingEffectTextView.setVisibility(View.VISIBLE);
