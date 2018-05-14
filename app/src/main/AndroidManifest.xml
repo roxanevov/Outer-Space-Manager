@@ -25,7 +25,6 @@
         <activity android:name=".Activity.FleetActivity"></activity>
         <activity android:name=".Activity.GalaxieActivity"></activity>
 
-
     </application>
 
 </manifest>

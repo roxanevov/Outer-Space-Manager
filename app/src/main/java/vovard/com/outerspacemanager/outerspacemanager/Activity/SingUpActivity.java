@@ -65,7 +65,7 @@ public class SingUpActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     login = editTextLogin.getText().toString();
                     password = editTextPassword.getText().toString();
-                    email = "roxane3578525@gmail.com";
+                    email = "roxane3578526@gmail.com";
                     user = new UserClass(login, password, email);
 
                     Retrofit retrofit = new Retrofit.Builder()

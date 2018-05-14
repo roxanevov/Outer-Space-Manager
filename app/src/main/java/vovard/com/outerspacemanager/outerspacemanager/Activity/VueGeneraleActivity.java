@@ -26,8 +26,6 @@ public class VueGeneraleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vue_generale);
 
-
-
         textViewGasValue = (TextView) findViewById(R.id.textViewGasValue);
         textViewGasModifieValue = (TextView) findViewById(R.id.textViewGasModifieValue);
         textViewMineralsValue = (TextView) findViewById(R.id.textViewMineralsValue);

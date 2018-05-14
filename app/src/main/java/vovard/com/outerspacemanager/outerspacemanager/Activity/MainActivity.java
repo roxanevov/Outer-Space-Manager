@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textViewUserName = (TextView) findViewById(R.id.textViewUsernameValue);
-        textViewPoint = (TextView) findViewById(R.id.textViewPoint);
         buttonVueGenerale = (Button) findViewById(R.id.buttonVueGenerale);
         buttonBatiment = (Button) findViewById(R.id.buttonBatiment);
         buttonFlotte = (Button) findViewById(R.id.buttonFlotte);

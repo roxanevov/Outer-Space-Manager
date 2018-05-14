@@ -3,6 +3,8 @@ package vovard.com.outerspacemanager.outerspacemanager.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -33,15 +35,25 @@ public class ShipActivity extends AppCompatActivity implements AdapterView.OnIte
     public static String TOKEN = "";
     private List<Ship> ships;
     public String token;
-    private ListView ListViewShip;
+
+
+    private RecyclerView mRecyclerView;
+    private RecyclerView.Adapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_ship);
-        ListViewShip = (ListView)findViewById(R.id.ListViewShip);
-        ListViewShip.setOnItemClickListener(this);
+        mRecyclerView = (RecyclerView) findViewById(R.id.ListViewShip);
+        mRecyclerView.setHasFixedSize(true);
+
+        // use a linear layout manager
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+
 
         SharedPreferences isToken = getSharedPreferences(TOKEN, 0);
         token = isToken.getString("token", null);
@@ -66,7 +78,10 @@ public class ShipActivity extends AppCompatActivity implements AdapterView.OnIte
                 } else {
                     ShipResponce rss = response.body();
                     ships = rss.getShips();
-                    ListViewShip.setAdapter(new ShipListeViewAdapter(ShipActivity.this,ships));
+                    // specify an adapter (see also next example)
+                    mAdapter = new ShipListeViewAdapter(ShipActivity.this,ships);
+                    mRecyclerView.setAdapter(mAdapter);
+
                 }
 
             }
