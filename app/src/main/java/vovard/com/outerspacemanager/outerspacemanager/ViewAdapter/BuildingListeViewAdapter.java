@@ -30,21 +30,12 @@ public class BuildingListeViewAdapter extends ArrayAdapter<Building> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View rowView = inflater.inflate(R.layout.row_building, parent, false);
-        /*TextView textView = (TextView) rowView.findViewById(R.id.BuildingNameTextView);
-        TextView BuildingEffectTextView = (TextView) rowView.findViewById(R.id.BuildingEffectTextView);
-        TextView BuildingBuildingTextView = (TextView) rowView.findViewById(R.id.BuildingBuildingTextView);*/
+
         ImageView imageViewBuilding = (ImageView) rowView.findViewById(R.id.imageViewBuilding);
-        /*TextView BuildingLevelTextView = (TextView) rowView.findViewById(R.id.BuildingLevelTextView);*/
 
         Glide.with(context)
                 .load(values.get(position).getImageUrl())
                 .into(imageViewBuilding);
-
-        /*textView.setText(values.get(position).getName());
-        BuildingEffectTextView.setText(values.get(position).getEffect());
-        BuildingBuildingTextView.setText(values.get(position).getBuilding());
-        BuildingLevelTextView.setText(values.get(position).getLevel()+"");*/
-
         return rowView;
     }
 

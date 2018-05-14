@@ -5,7 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
@@ -29,11 +32,16 @@ public class FleetListeViewAdapter  extends ArrayAdapter<Ship>{
             View rowView = inflater.inflate(R.layout.row_fleet, parent, false);
             TextView textViewName = (TextView) rowView.findViewById(R.id.textViewName);
             TextView textViewAmount = (TextView) rowView.findViewById(R.id.textViewAmount);
+            ImageView imageViewFlot = (ImageView) rowView.findViewById(R.id.imageViewFlot);
 
             Ship ship = values.get(position);
 
             textViewName.setText(ship.getName());
             textViewAmount.setText(String.valueOf(ship.getAmount()));
+            final int id = ship.getShipId();
+            Glide.with(context)
+                    .load(getImage("ship_"+id, context))
+                    .into(imageViewFlot);
 
             return rowView;
         }
@@ -47,5 +55,11 @@ public class FleetListeViewAdapter  extends ArrayAdapter<Ship>{
         public long getItemId( int position){
         Ship ship = getItem(position);
         return ship.getShipId();
+    }
+
+    public int getImage(String imageName, Context context) {
+
+        int drawableResourceId = context.getResources().getIdentifier(imageName, "drawable", context.getPackageName());
+        return drawableResourceId;
     }
 }

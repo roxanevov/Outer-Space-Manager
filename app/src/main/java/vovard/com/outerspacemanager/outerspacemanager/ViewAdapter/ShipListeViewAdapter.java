@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -59,49 +60,6 @@ public class ShipListeViewAdapter  extends RecyclerView.Adapter<ShipListeViewAda
             super(v);
             mView = v;
 
-            mView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Retrofit retrofit = new Retrofit.Builder()
-                            .baseUrl(Constant.URL_BDD)
-                            .addConverterFactory(GsonConverterFactory.create())
-                            .build();
-                    outerSpeceManagerService service = retrofit.create(outerSpeceManagerService.class);
-
-                    JSONObject jsonParams = new JSONObject();
-                    try {
-                        jsonParams.put("amount", 1);
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-
-                    RequestBody body = RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),jsonParams.toString());
-                    Call<CreateShipResponce> request = service.createShip(token, getAdapterPosition() ,body);
-
-                    request.enqueue(new Callback<CreateShipResponce>() {
-                        @Override
-                        public void onResponse(Call<CreateShipResponce> call, Response<CreateShipResponce> response) {
-                            if (response.code() != 200) {
-                                try {
-                                    Toast.makeText(mView.getContext(), response.errorBody().string(), Toast.LENGTH_SHORT).show();
-                                    Log.i("erreur", response.errorBody().string());
-                                } catch (IOException e) {
-                                    e.printStackTrace();
-                                }
-                            } else {
-                                CreateShipResponce rss = response.body();
-                                Toast.makeText(mView.getContext(), "En construction", Toast.LENGTH_SHORT).show();
-
-                            }
-                        }
-                        @Override
-                        public void onFailure(Call<CreateShipResponce> call, Throwable t) {
-                        }
-                    });
-
-                    //Toast.makeText(mView.getContext(),"J'ai sélectionné l'item "+id,Toast.LENGTH_SHORT).show();
-                }
-            });
         }
     }
 
@@ -118,13 +76,14 @@ public class ShipListeViewAdapter  extends RecyclerView.Adapter<ShipListeViewAda
 
     // Replace the contents of a view (invoked by the layout manager)
     @Override
-    public void onBindViewHolder (ViewHolder holder, int position) {
+    public void onBindViewHolder (final ViewHolder holder, int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
         //holder.mView.setText(this.values[position]);
         ImageView imageViewBuilding = (ImageView)  holder.mView.findViewById(R.id.imageViewShip);
+        final int id = values.get(position).getShipId();
         Glide.with(context)
-                .load(getImage("ship_"+values.get(position).getShipId(), context))
+                .load(getImage("ship_"+id, context))
                 .into(imageViewBuilding);
 
         TextView textViewName = (TextView) holder.mView.findViewById(R.id.textViewName);
@@ -132,6 +91,7 @@ public class ShipListeViewAdapter  extends RecyclerView.Adapter<ShipListeViewAda
         TextView textViewMineralCost = (TextView)holder.mView.findViewById(R.id.textViewMineralCost);
         TextView textViewMaxAttack = (TextView) holder.mView.findViewById(R.id.textViewMaxAttack);
         TextView textViewMinAttack = (TextView) holder.mView.findViewById(R.id.textViewMinAttack);
+        Button buttonConstruirShip = (Button) holder.mView.findViewById(R.id.buttonConstruirShip);
 
         textViewName.setText(values.get(position).getName());
         textViewGasCost.setText("" + values.get(position).getGasCost());
@@ -139,6 +99,50 @@ public class ShipListeViewAdapter  extends RecyclerView.Adapter<ShipListeViewAda
         textViewMaxAttack.setText("" + values.get(position).getMaxAttack());
         textViewMinAttack.setText("" + values.get(position).getMinAttack());
 
+
+        buttonConstruirShip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Retrofit retrofit = new Retrofit.Builder()
+                        .baseUrl(Constant.URL_BDD)
+                        .addConverterFactory(GsonConverterFactory.create())
+                        .build();
+                outerSpeceManagerService service = retrofit.create(outerSpeceManagerService.class);
+
+                JSONObject jsonParams = new JSONObject();
+                try {
+                    jsonParams.put("amount", 1);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                RequestBody body = RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),jsonParams.toString());
+                Call<CreateShipResponce> request = service.createShip(token, id ,body);
+
+                request.enqueue(new Callback<CreateShipResponce>() {
+                    @Override
+                    public void onResponse(Call<CreateShipResponce> call, Response<CreateShipResponce> response) {
+                        if (response.code() != 200) {
+                            try {
+                                JSONObject jsonError = new JSONObject(response.errorBody().string());
+                                Toast.makeText( holder.mView.getContext(), jsonError.getString("message"), Toast.LENGTH_SHORT).show();
+                                Log.i("erreur", response.errorBody().string());
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        } else {
+                            CreateShipResponce rss = response.body();
+                            Toast.makeText( holder.mView.getContext(), "En construction", Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                    @Override
+                    public void onFailure(Call<CreateShipResponce> call, Throwable t) {
+                    }
+                });
+
+                Toast.makeText(holder.mView.getContext(),"J'ai sélectionné l'item "+id,Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     // Return the size of your dataset (invoked by the layout manager)

@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.io.IOException;
@@ -25,7 +26,7 @@ import vovard.com.outerspacemanager.outerspacemanager.R;
 import vovard.com.outerspacemanager.outerspacemanager.Service.outerSpeceManagerService;
 import vovard.com.outerspacemanager.outerspacemanager.ViewAdapter.BuildingListeViewAdapter;
 
-public class FragmentBuildingList extends Fragment {
+public class FragmentBuildingList extends Fragment implements AdapterView.OnItemClickListener{
     private ListView ListViewBuilding;
     public static String TOKEN = "";
     public List<Building> buildings;
@@ -39,6 +40,7 @@ public class FragmentBuildingList extends Fragment {
         return v;
     }
     @Override
+
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
@@ -66,7 +68,7 @@ public class FragmentBuildingList extends Fragment {
                     BuildingResponse rss = response.body();
                     buildings = rss.getBuldings();
                     ListViewBuilding.setAdapter(new BuildingListeViewAdapter(getActivity(), buildings));
-                    ListViewBuilding.setOnItemClickListener((BuildingActivity)getActivity());
+                    ((BuildingActivity)getActivity()).updateView(0, true );
                 }
 
             }
@@ -77,5 +79,12 @@ public class FragmentBuildingList extends Fragment {
             }
         });
 
+        ListViewBuilding.setOnItemClickListener(this);
+
+
+    }
+
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        ((BuildingActivity)getActivity()).updateView(position, false);
     }
 }
