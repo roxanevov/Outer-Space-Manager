@@ -1,13 +1,10 @@
 package vovard.com.outerspacemanager.outerspacemanager.Fragment.Building;
 
-import android.content.Context;
 import android.content.SharedPreferences;
-import android.media.Image;
 import android.os.Bundle;
 
 
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,13 +22,12 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import vovard.com.outerspacemanager.outerspacemanager.APIResponse.BuildingResponse;
-import vovard.com.outerspacemanager.outerspacemanager.APIResponse.CreateBuildingResponce;
-import vovard.com.outerspacemanager.outerspacemanager.APIResponse.CreateShipResponce;
+import vovard.com.outerspacemanager.outerspacemanager.apiResponse.BuildingResponse;
+import vovard.com.outerspacemanager.outerspacemanager.apiResponse.CreateBuildingResponce;
 import vovard.com.outerspacemanager.outerspacemanager.Constant;
-import vovard.com.outerspacemanager.outerspacemanager.Entity.Building;
+import vovard.com.outerspacemanager.outerspacemanager.entity.Building;
 import vovard.com.outerspacemanager.outerspacemanager.R;
-import vovard.com.outerspacemanager.outerspacemanager.Service.outerSpeceManagerService;
+import vovard.com.outerspacemanager.outerspacemanager.service.outerSpeceManagerService;
 
 public class FragmentBuildingDetail extends Fragment {
 

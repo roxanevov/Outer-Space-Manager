@@ -11,20 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".Activity.SingUpActivity">
+        <activity android:name=".activity.SingUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.VueGeneraleActivity" />
-        <activity android:name=".Activity.BuildingActivity"></activity>
-        <activity android:name=".Activity.BuildingDetailActivity"></activity>
-        <activity android:name=".Activity.ShipActivity"></activity>
-        <activity android:name=".Activity.FleetActivity"></activity>
-        <activity android:name=".Activity.GalaxieActivity"></activity>
-
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.VueGeneraleActivity" />
+        <activity android:name=".activity.BuildingActivity"></activity>
+        <activity android:name=".activity.BuildingDetailActivity"></activity>
+        <activity android:name=".activity.ShipActivity"></activity>
+        <activity android:name=".activity.FleetActivity"></activity>
+        <activity android:name=".activity.GalaxieActivity"></activity>
+        <activity android:name=".activity.SearchActivity"></activity>
     </application>
 
 </manifest>

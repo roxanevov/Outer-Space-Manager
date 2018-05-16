@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.UUID;
 
-import vovard.com.outerspacemanager.outerspacemanager.Entity.UserClass;
+import vovard.com.outerspacemanager.outerspacemanager.entity.UserClass;
 
 public class CurrentUserDatabase {
     // Database fields

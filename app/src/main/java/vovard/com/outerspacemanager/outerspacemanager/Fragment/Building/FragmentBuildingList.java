@@ -3,14 +3,15 @@ package vovard.com.outerspacemanager.outerspacemanager.Fragment.Building;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
-import java.io.IOException;
+import org.json.JSONObject;
+
 import java.util.List;
 
 import retrofit2.Call;
@@ -18,13 +19,13 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import vovard.com.outerspacemanager.outerspacemanager.APIResponse.BuildingResponse;
-import vovard.com.outerspacemanager.outerspacemanager.Activity.BuildingActivity;
+import vovard.com.outerspacemanager.outerspacemanager.apiResponse.BuildingResponse;
+import vovard.com.outerspacemanager.outerspacemanager.activity.BuildingActivity;
 import vovard.com.outerspacemanager.outerspacemanager.Constant;
-import vovard.com.outerspacemanager.outerspacemanager.Entity.Building;
+import vovard.com.outerspacemanager.outerspacemanager.entity.Building;
 import vovard.com.outerspacemanager.outerspacemanager.R;
-import vovard.com.outerspacemanager.outerspacemanager.Service.outerSpeceManagerService;
-import vovard.com.outerspacemanager.outerspacemanager.ViewAdapter.BuildingListeViewAdapter;
+import vovard.com.outerspacemanager.outerspacemanager.service.outerSpeceManagerService;
+import vovard.com.outerspacemanager.outerspacemanager.viewAdapter.BuildingListeViewAdapter;
 
 public class FragmentBuildingList extends Fragment implements AdapterView.OnItemClickListener{
     private ListView ListViewBuilding;
@@ -59,11 +60,12 @@ public class FragmentBuildingList extends Fragment implements AdapterView.OnItem
             public void onResponse(Call<BuildingResponse> call, Response<BuildingResponse> response) {
                 if (response.code() != 200) {
                     try {
-                        //Toast.makeText(getApplicationContext(), response.errorBody().string(), Toast.LENGTH_SHORT).show();
-                        Log.i("erreur", response.errorBody().string());
-                    } catch (IOException e) {
+                        JSONObject jsonError = new JSONObject(response.errorBody().string());
+                        Toast.makeText( getContext(), jsonError.getString("message"), Toast.LENGTH_SHORT).show();
+                    } catch (Exception e) {
                         e.printStackTrace();
                     }
+
                 } else {
                     BuildingResponse rss = response.body();
                     buildings = rss.getBuldings();
